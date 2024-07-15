@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Code</title>
+      <!-- Link to Tailwind CSS CDN -->
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    
+</head>
+<body class="bg-gray-200">
+    <!-- Header -->
+    <header class="bg-gray-700 text-white py-4 text-center">
+        <h1 class="text-2xl font-bold">My Company</h1>
+    </header>
+    <!-- Navigation -->
+    <nav class="bg-gray-500 text-white py-2">
+        <ul class="flex justify-center">
+            <li class="mx-4"><a href="#home" class="hover:underline">Home</a></li>
+            <li class="mx-4"><a href="#services" class="hover:underline">Services</a></li>
+            <li class="mx-4"><a href="#about" class="hover:underline">About</a></li>
+            <li class="mx-4"><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Main content -->
+    <div class="main px-4 py-8">
+           <!-- Home section -->
+        <section id="home" class="section mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Welcome to Our Website</h2>
+            <p>This is the home section.</p>
+        </section>
+         <!-- Services section -->
+        <section id="services" class="section mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Our Services</h2>
+            <!-- Service boxes -->
+            <div class="service bg-white p-4 mb-4 shadow-md">
+                <h3 class="text-xl font-semibold">Web Design</h3>
+                <p>Beautiful and responsive web designs tailored to your needs.</p>
+            </div>
+            <div class="service bg-white p-4 mb-4 shadow-md">
+                <h3 class="text-xl font-semibold">Development</h3>
+                <p>Full-stack web development solutions using modern technologies.</p>
+            </div>
+            <div class="service bg-white p-4 mb-4 shadow-md">
+                <h3 class="text-xl font-semibold">SEO Optimization</h3>
+                <p>Boost your online presence with our SEO strategies.</p>
+            </div>
+        </section>
+        <!-- About section -->
+        <section id="about" class="section mb-8">
+            <h2 class="text-2xl font-semibold mb-4">About Us</h2>
+            <p>Learn about our team and our mission.</p>
+        </section>
+        <!-- Contact section -->
+        <section id="contact" class="section mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
+            <form class="contact-form max-w-lg mx-auto bg-white p-4 shadow-md">
+                <label for="name" class="block mb-1">Name:</label>
+                <input type="text" id="name" name="name" class="w-full px-3 py-2 border rounded-md mb-2">
+                <label for="email" class="block mb-1">Email:</label>
+                <input type="email" id="email" name="email" class="w-full px-3 py-2 border rounded-md mb-2">
+                <label for="message" class="block mb-1">Message:</label>
+                <textarea id="message" name="message" class="w-full px-3 py-2 border rounded-md mb-2"></textarea>
+                <button type="submit" class="bg-gray-900 text-white px-4 py-2 rounded-md hover:bg-gray-800">Send Message</button>
+            </form>
+        </section>
+    </div>
+     <!-- Footer -->
+    <footer class="footer bg-gray-500 text-white py-4 text-center fixed bottom-0 w-full">
+        <p>&copy; 2024 My Company. All rights reserved.</p>
+    </footer>
+
+    <!-- Image gallery section -->
+
+    <section class="gallery px-4 py-8 text-center">
+        <h2 class="text-2xl font-semibold mb-4">Image Gallery</h2>
+        <!-- Gallery grid -->
+        <div class="gallery-grid grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="gallery-item bg-white p-4 shadow-md">
+                <img src="image1.jpg" alt="Image 1" class="w-full">
+            </div>
+            <div class="gallery-item bg-white p-4 shadow-md">
+                <img src="image2.jpg" alt="Image 2" class="w-full">
+            </div>
+            <div class="gallery-item bg-white p-4 shadow-md">
+                <img src="image3.jpg" alt="Image 3" class="w-full">
+            </div>
+            <div class="gallery-item bg-white p-4 shadow-md">
+                <img src="image4.jpg" alt="Image 4" class="w-full">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
